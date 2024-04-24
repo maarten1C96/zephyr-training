@@ -6,7 +6,10 @@
 
 #include <zephyr/kernel.h>
 
+int counter = 0;
+
 int main(void)
 {
-	printk("Hello World! %s\n", CONFIG_BOARD);
+	// printk("Hello World! %s\n", CONFIG_BOARD);
+	printk("counter: %i\n", counter);
 }
